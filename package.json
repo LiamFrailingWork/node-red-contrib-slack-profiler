@@ -1,0 +1,29 @@
+{
+  "name": "node-red-contrib-slack-profiler",
+  "version": "0.1.2",
+  "description": "A node-red module to post to Slack.com",
+  "main": "slackpost.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/yayadrian/node-red-slack.git"
+  },
+  "keywords": [
+    "node-red",
+    "slack",
+    "post"
+  ],
+  "node-red": {
+    "nodes": {
+      "slack": "slackpost.js"
+    }
+  },
+  "author": "Adrian Lansdown ext. Liam Frailing",
+  "license": "MIT",
+  "dependencies": {
+    "request": "^2.51.0",
+    "slack-client": "^1.4.0"
+  }
+}
