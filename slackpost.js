@@ -105,6 +105,8 @@ module.exports = function(RED) {
                     "channelName": slackChannel.name,
                     "channel": message.channel,
                     "fromUser": fromUser.name,
+					"profile": fromUser.profile,
+					"email": fromUser.profile.email,
                     "attachments" : message.attachments
                 };
 
